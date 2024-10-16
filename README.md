@@ -74,6 +74,7 @@ In order to add a task:
 3. Select an estimated **`Amount of Time needed`** (The time is in the format of HH:MM)
 4. Select an **`Importance`** in the dropdown menu
 5. Press **`Add Task`**
+6. The task will appear in the box below
 
 #### Modifying Filters
 The initial applied filter is the **`Due Date`** filter. If you wish to change the way the current tasks are displayed, simply click one of the filter buttons:
