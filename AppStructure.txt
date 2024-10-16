@@ -1,0 +1,10 @@
+/stress_management_app
+│
+├── app.py                 # Main file that runs the application
+├── components
+│   ├── mood_tracker.py     # File for mood tracker UI and logic (handled by one student)
+│   └── task_list.py        # File for task list UI and logic (handled by the other student)
+├── logs                    # Directory for storing logs (new)
+│   ├── mood_log.txt        # Text file to store mood entries
+│   └── task_log.txt        # Text file to store tasks and deadlines
+└── assets                  # Any images, icons, or other assets if needed
