@@ -54,14 +54,14 @@ The task list is used to organize your tasks and stay on top of your deadlines t
 ### Components
 
 #### Task Creation 
-Task list is made up the **`Task Name`**, **`Calendar`**, **`Deadline Time`**, **`Amount of Time needed`** and **`Priority`** which are all used for the user to create their tasks. <br>
+Task list is made up the **`Task Name`**, **`Calendar`**, **`Deadline Time`**, **`Amount of Time needed`**, **`Priority`** and **`Add Task`** which are all used for the user to create their tasks. <br>
 
 #### Filters
 The box in the middle of the screen is where the tasks will be displayed, to enhance the display of tasks, there are 3 filters that can be used to see your tasks in different ways:<br>
-- **`Sort by Due Data`** to see tasks from the closest due date to the furthest due date
-- **`Sort By Importance`** to see tasks from High priority to Low priority
-- **`To Do`** which is the intelligent feature, this invokes an algorithm that computes weights to tasks and organizes them based on the order the user should work on
+- **`Sort by Due Data`** to see tasks from the closest due date to the furthest due date.
+- **`Sort by Importance`** to see tasks from High priority to Low priority.
+- **`To Do`** which is the intelligent feature, this invokes an algorithm that computes weights to tasks and organizes them based on the order the user should work on.
 
 #### Quality of Life additions
 - **`View Passed Tasks`** button which allows the user to see passed tasks. 
-- The task list has an observer which every minute checks whether any tasks have passed and if they have, sends them to "passed_tasks_log.txt"
+- The task list has an observer which every minute checks whether any tasks have passed and if they have, sends them to "passed_tasks_log.txt".
