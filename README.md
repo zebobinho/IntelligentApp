@@ -67,6 +67,11 @@ The box in the middle of the screen is where the tasks will be displayed, to enh
 - The task list has an observer which every minute checks whether any tasks have passed and if they have, sends them to "passed_tasks_log.txt".
 
 ### Manual
+#### Using the Calendar
+To use the calendar:
+- Top left: Use arrows to go through the months
+- Top right: User arrows to go through the years
+- When you have found the day of your task, simply click on it on the calendar
 #### Adding task
 In order to add a task:
 1. Write down the name of the task under **`Task Name`**
