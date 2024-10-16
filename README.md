@@ -65,3 +65,21 @@ The box in the middle of the screen is where the tasks will be displayed, to enh
 #### Quality of Life additions
 - **`View Passed Tasks`** button which allows the user to see passed tasks. 
 - The task list has an observer which every minute checks whether any tasks have passed and if they have, sends them to "passed_tasks_log.txt".
+
+### Manual
+#### Adding task
+In order to add a task:
+1. Write down the name of the task under **`Task Name`**
+2. Select the due date in the **`Calendar`** and due time in **`Deadline time`** (The time is in the format of HH:MM)
+3. Select an estimated **`Amount of Time needed`**
+4. Select an **`Importance`** in the dropdown menu
+5. Press **`Add Task`**
+
+#### Modifying Filters
+The initial applied filter is the **`Due Date`** filter. If you wish to change the way the current tasks are displayed, simply click one of the filter buttons:
+- **`Sort by Due Date`**
+- **`Sort by Importance`**
+- **`To Do`**
+
+#### Looking at Passed Tasks
+To look at tasks that have already passed, simply scroll to the bottom of the page, and click the **`View Passed Tasks`** button.
