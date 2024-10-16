@@ -27,7 +27,7 @@ The project directory is structured as follows:
 
 ### Logs
 
-- **task_log.txt**: Stores all tasks with details such as deadlines, importance and time to completion.
+- **task_log.txt**: Stores all tasks with details such as task name, task due date, importance and time to completion.
 - **passed_tasks_log.txt**: Stores all tasks that have already passed.
 
 ### Assets
