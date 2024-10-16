@@ -28,6 +28,7 @@ The project directory is structured as follows:
 ### Logs
 
 - **task_log.txt**: Stores all tasks with details such as deadlines, priority and time to completion.
+- **passed_tasks_log.txt**: Stores all tasks that have already passed.
 
 ### Assets
 
@@ -47,12 +48,20 @@ The project directory is structured as follows:
    python App.py
 
 ## Usage
-Task List: Organize your tasks and stay on top of your deadlines to reduce stress and provides assistance on how to approach your tasks.<br>
+### Overview 
+The task list is used to organize your tasks and stay on top of your deadlines to reduce stress and provide assistance on how to approach your tasks.<br>
+
+### Components
+
+#### Task Creation 
 Task list is made up the **`Task Name`**, **`Calendar`**, **`Deadline Time`**, **`Amount of Time needed`** and **`Priority`** which are all used for the user to create their tasks. <br>
-There are 3 filters that can be used to see your tasks in different ways:<br>
+
+#### Filters
+The box in the middle of the screen is where the tasks will be displayed, to enhance the display of tasks, there are 3 filters that can be used to see your tasks in different ways:<br>
 - **`Sort by Due Data`** to see tasks from the closest due date to the furthest due date
 - **`Sort By Importance`** to see tasks from High priority to Low priority
 - **`To Do`** which is the intelligent feature, this invokes an algorithm that computes weights to tasks and organizes them based on the order the user should work on
 
-The task list also has a **`View Passed Tasks`** button which allows the user to see passed tasks.
-
+#### Quality of Life additions
+- **`View Passed Tasks`** button which allows the user to see passed tasks. 
+- The task list has an observer which every minute checks whether any tasks have passed and if they have, sends them to "passed_tasks_log.txt"
